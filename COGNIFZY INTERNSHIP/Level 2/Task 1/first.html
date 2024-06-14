@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card and Grid</title>
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 350px; /* Set the desired height */
+            object-fit: cover; /* Ensures the image covers the specified dimensions */
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s;
+            box-shadow: 0 4px 8px rgba(222, 42, 6, 0.2);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Indian Cricketers</h1>
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image is-centered">
+                            <figure class="image is-3by2">
+                                <img src="pic1.jpg" alt="Sachin Tendulkar">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Sachin Tendulkar</p>
+                                    <p class="subtitle is-6">@Sachin Tendulkar</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Widely regarded as the greatest cricketer of all time, he scored over 34,000 runs in international cricket.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image is-centered">
+                            <figure class="image is-3by2">
+                                <img src="pic2.jpg" alt="MS Dhoni">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">MS Dhoni</p>
+                                    <p class="subtitle is-6">@Ms Dhoni</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Known as "Captain Cool," considered one of the best wicket-keeper batsmen in the history of cricket.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image is-centered">
+                            <figure class="image is-3by2">
+                                <img src="pic 3.jpg" alt="Virat Kohli">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Virat Kohli</p>
+                                    <p class="subtitle is-6">@Virat Kohli</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                Known for his aggressive style of play, one of the top batsmen in the world.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!--basic responsive grid example using bootstrap-->
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Fruits</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="OIP.jpg" class="card-img-top" alt="Apples">
+                        <div class="card-body">
+                            <h5 class="card-title">Apples</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="OIP 2.jpg" class="card-img-top" alt="Grapes">
+                        <div class="card-body">
+                            <h5 class="card-title">Grapes</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="oip3.jpg" class="card-img-top" alt="Mango">
+                        <div class="card-body">
+                            <h5 class="card-title">Mango</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

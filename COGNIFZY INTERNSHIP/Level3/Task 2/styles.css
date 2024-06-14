@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    color: #f6f1f1;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h3 {
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.content h2, .content h3 {
+    color: #333;
+}
+
+.content ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.content ul li {
+    background: url('checkmark.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.content-img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.content-image {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.overview-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.overview-section .content-image {
+    flex: 1 1 45%;
+}
+
+.overview-text {
+    flex: 1 1 45%;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .learn-more {
+    background-color: #008CBA;
+}
+
+.buttons button:hover {
+    background-color: #0e0f0e;
+    color: white;
+}
+
+.buttons .learn-more:hover {
+    background-color: #0e0f0e;
+    color: white;
+}
+
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FFD700;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info p strong {
+    display: inline-block;
+    width: 70px;
+}

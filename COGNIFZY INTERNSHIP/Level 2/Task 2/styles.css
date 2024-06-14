@@ -1,0 +1,93 @@
+/* Basic Styles */
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(175, 185, 185);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 30px 25px;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav ul li {
+        margin: 10px 0;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+}
+/* Toggle Menu */
+.nav ul.open {
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-size: 200%;
+}
+p{
+    text-align: center;
+    font-size: 150%;
+    padding: 3px 250px;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.images img {
+    max-width: 20%;
+    height: auto;
+    margin: 0 10px;
+}
